@@ -3,6 +3,7 @@ export default function initGallery() {
     const images = document.querySelectorAll('[data-gallery] div');
 
     if(navGallery.length && images.length) {
+        images.forEach((item) => item.style.display = "none");
         images[0].classList.add('active');
         navGallery[0].classList.add('active-nav');
 
