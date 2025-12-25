@@ -1,6 +1,6 @@
 export default function initGallery() {
     const navGallery = document.querySelectorAll('[data-galleryNav] li');
-    const images = document.querySelectorAll('[data-gallery] div');
+   const images = document.querySelectorAll('[data-gallery] > div');
 
     if(navGallery.length && images.length) {
         images[0].classList.add('active');
