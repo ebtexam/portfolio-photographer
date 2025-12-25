@@ -30,13 +30,13 @@
     position: absolute;
 }
 
-.all img, .nature img, .urban img, .landscape img, .architecture img {
+.all img, .portrait img, .lifestyle img, .landscape img, .architecture img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.all, .nature, .urban, .landscape, .architecture {
+.all, .portrait, .lifestyle, .landscape, .architecture {
     display: none;
     padding: 0 20px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -48,7 +48,7 @@
     "all-1 all-3 all-5";
 }
 
-.all.active, .nature.active, .urban.active, .landscape.active, .architecture.active {
+.all.active, .portrait.active, .lifestyle.active, .landscape.active, .architecture.active {
     display: grid;
 }
 
@@ -101,7 +101,7 @@
         margin-bottom: 24px;
     }
 
-    .all,.nature, .urban, .landscape, .architecture {
+    .all,.portrait, .lifestyle, .landscape, .architecture {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "all-6 all-5"
@@ -136,7 +136,7 @@
 
 
 @media(max-width: 520px) {
-    .all,.nature, .urban, .landscape, .architecture {
+    .all,.portrait, .lifestyle, .landscape, .architecture {
         grid-template-columns: 1fr ;
         grid-template-areas: 
         "all-6"
