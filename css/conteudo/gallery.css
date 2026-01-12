@@ -37,15 +37,16 @@
 }
 
 .all, .portrait, .lifestyle, .landscape, .architecture {
- display: none;
- padding: 0 20px;
- grid-template-columns: 1fr 1fr 1fr;
- gap: 20px;
- grid-template-areas: 
- "all-1 all-1 all-2" /* wider top-right */
- "all-3 all-4 all-4" /* wider middle-right */
- "all-5 all-5 all-6" /* wider bottom-left */
- "all-3 all-6 all-6"; /* extends bottom-right */
+    display: none;
+    padding: 0 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-areas: 
+        "all-1 all-1 all-2"
+        "all-3 all-3 all-4"
+        "all-5 all-6 all-6"
+        "all-5 all-2 all-4"
+        "all-3 all-5 all-1";
         
 }
 
