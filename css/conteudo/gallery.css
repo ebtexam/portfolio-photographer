@@ -46,6 +46,7 @@
     "all-1 all-6 all-5"
     "all-1 all-3 all-5"
     "all-1 all-3 all-5";
+    grid-auto-rows: 260px;
 }
 
 .all.active, .portrait.active, .lifestyle.active, .landscape.active, .architecture.active {
