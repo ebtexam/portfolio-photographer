@@ -30,7 +30,7 @@
     position: absolute;
 }
 
-.all img, .portrait img, .lifestyle img, .landscape img, .architecture img {
+.all img, .architecture img, .landscape img, .portrait img, .lifestyle img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -41,15 +41,15 @@
     padding: 0 20px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    grid-template-areas: 
-    "all-4 all-6 all-2"
-    "all-1 all-6 all-5"
-    "all-1 all-3 all-5"
-    "all-1 all-3 all-5";
+    grid-template-areas:
+        "all-4 all-6 all-2"
+        "all-1 all-6 all-5"
+        "all-1 all-3 all-5"
+        "all-1 all-3 all-5";
     grid-auto-rows: 260px;
 }
 
-.all.active, .portrait.active, .lifestyle.active, .landscape.active, .architecture.active {
+.all.active, .architecture.active, .landscape.active, .portrait.active, .lifestyle.active {
     display: grid;
 }
 
