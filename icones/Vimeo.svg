@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.82 11.419c-1.306 2.792-4.463 6.595-6.458 6.595-1.966 0-2.25-4.192-3.324-6.983-.527-1.372-.868-1.058-1.858-.364l-.604-.779c1.444-1.27 2.889-2.745 3.778-2.826.998-.096 1.615.587 1.845 2.051.305 1.924.729 4.91 1.472 4.91.577 0 2.003-2.369 2.076-3.215.13-1.24-.912-1.277-1.815-.89 1.43-4.689 7.383-3.825 4.888 1.501z"/></svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 110" width="111" height="110">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m55.83 110.5c-30.69 0.18-55.65-24.48-55.83-55.18-0.18-30.69 24.48-55.64 55.18-55.82 30.69-0.19 55.64 24.48 55.82 55.17 0.19 30.69-24.48 55.65-55.17 55.83z"/>
+		</clipPath>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAO1QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7abglwAAAE90Uk5TACKTxur87C0rs/3//h5d9/NzclTtvvjbVhJpdQw29mDxTAS1u7HSI8lfG+Ogyqer3/omfHk+cDHwD9PCulhZ+xEZbxzZF8sWBj/YQx2QFNGEKWUAAAEzSURBVHicfVLvK0NRGH6e7JpLW2irNTFp86NFE1qZSEs+8NcqJR9EuimhFi0/WnwQiTtpUTNzvefcY2Z+PB/e877Pc877np5zCB9UAOueVTWEjh2KNUQ9UGkIYb7hCxYfjdD76uEbgmUt9NRaeDDoihBqq6EVdrVCRF+aqS4+q/Od9wx5ulHAJp+Abl7309W3TzwoPspLDJVrsZLkyVsJEaZuZOnjmcRR2V0ENBNn+koNi/EYmCghWQAyF8IMcvLcnzpyhKlTjB1gpqjK4YaQ3kf2ZJx7mC34gj4oyDjAHHcxf6jLlD9cMM1ttSw6li7j5rqC7JaEvPTSiHDJMYbnNoHlO9PYyzVZMpAgd0wulvxtIsLvP2xfWP/3oYAVp7mb7bn4/Ayr3Gg3tJfnGhrCL9/nAz+iWbC4HD0tAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<g clip-path="url(#cp1)">
+	</g>
+	<use id="Vimeo" href="#img1" x="44" y="43"/>
+</svg>
