@@ -32,8 +32,8 @@
 .vanessa::before, .john::before, .carol::before, .fernanda::before, .stefan::before, .mohammad::before {
     content: '';
     display: block;
-    width: 55px;
-    height: 55px;
+    width: 90px;
+    height: 90px;
     position: absolute;
     top: -80px;
 }
